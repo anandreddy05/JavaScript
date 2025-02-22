@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: blue;
+    font-size: 3rem;
+}
+
+#counterContainer{
+    background-color: lightcoral;
+    width: 20rem;
+    text-align: center;
+}
+
+#btnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#myCount{
+    color: aqua;
+    font-size: 10rem;
+}
+
+.buttons{
+    color: blueviolet;
+    font-size: 1.5em;
+    border-radius: 5px;
+    background-color: rgb(0, 166, 255);
+}
+
+.buttons:hover{
+    cursor: pointer;
+    background-color: rgb(0, 200, 255) ;
+}
